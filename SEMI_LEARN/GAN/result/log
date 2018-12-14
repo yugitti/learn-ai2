@@ -1,0 +1,22 @@
+ITER [500/50000]: Train set: Average loss: 0.0011, Accuracy: 100/100 (100%)_test
+Test set: Average loss: 2100.5298, Accuracy: 5992/10000 (60%)_test
+ITER [1000/50000]: Train set: Average loss: 0.0009, Accuracy: 100/100 (100%)_test
+Test set: Average loss: 1765.1279, Accuracy: 6774/10000 (68%)_test
+ITER [1500/50000]: Train set: Average loss: 0.0003, Accuracy: 100/100 (100%)_test
+Test set: Average loss: 1767.9054, Accuracy: 7105/10000 (71%)_test
+ITER [2000/50000]: Train set: Average loss: 0.0013, Accuracy: 100/100 (100%)_test
+Test set: Average loss: 1600.0970, Accuracy: 7386/10000 (74%)_test
+ITER [2500/50000]: Train set: Average loss: 0.0001, Accuracy: 100/100 (100%)_test
+Test set: Average loss: 1585.8185, Accuracy: 7252/10000 (73%)_test
+ITER [3000/50000]: Train set: Average loss: 0.0001, Accuracy: 100/100 (100%)_test
+Test set: Average loss: 1577.8848, Accuracy: 7450/10000 (74%)_test
+ITER [3500/50000]: Train set: Average loss: 0.0001, Accuracy: 100/100 (100%)_test
+Test set: Average loss: 1382.8699, Accuracy: 7448/10000 (74%)_test
+ITER [4000/50000]: Train set: Average loss: 0.0001, Accuracy: 100/100 (100%)_test
+Test set: Average loss: 1503.4678, Accuracy: 7462/10000 (75%)_test
+ITER [4500/50000]: Train set: Average loss: 0.0001, Accuracy: 100/100 (100%)_test
+Test set: Average loss: 1614.4304, Accuracy: 7355/10000 (74%)_test
+ITER [5000/50000]: Train set: Average loss: 0.0001, Accuracy: 100/100 (100%)_test
+Test set: Average loss: 1546.2458, Accuracy: 7437/10000 (74%)_test
+ITER [5500/50000]: Train set: Average loss: 0.0000, Accuracy: 100/100 (100%)_test
+Test set: Average loss: 1646.8490, Accuracy: 7385/10000 (74%)_test

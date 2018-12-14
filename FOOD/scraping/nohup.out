@@ -1,0 +1,11 @@
+  0%|          | 0/13 [00:00<?, ?it/s]
+  0%|          | 0/5 [00:00<?, ?it/s][A
+[A
+Traceback (most recent call last):
+  File "food_scraping_kikkoman.py", line 111, in <module>
+    search_result = get_search_result(search_root, url_root, word, max_search_loop)
+  File "food_scraping_kikkoman.py", line 94, in get_search_result
+    result.append( urllib.parse.urljoin(url_root, a['href']))
+  File "/usr/lib/python3.5/urllib/parse.py", line 419, in urljoin
+    urlparse(url, bscheme, allow_fragments)
+KeyboardInterrupt
