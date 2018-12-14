@@ -1,0 +1,312 @@
+use cuda id [9]
+start to load train dataset
+start to load test dataset
+finish loading dataset
+use pretrained wieght
+ learn feature layers upto 28 layers
+ learn classifier layers upto 0 layers
+finish loading NN
+finish loading optimizer
+finish loading criterion
+finish loading logger
+start epoch loop
+epoch [1]	111 / 100 
+EPOCH [1]: Train set: Average loss: 19.5628, Accuracy: 306/1000 (31%)
+Test set: Average loss: 14.8630, Accuracy: 85/300 (28%)
+epoch [2]	111 / 100 
+EPOCH [2]: Train set: Average loss: 13.1565, Accuracy: 531/1000 (53%)
+Test set: Average loss: 7.0948, Accuracy: 136/300 (45%)
+epoch [3]	111 / 100 
+EPOCH [3]: Train set: Average loss: 10.3680, Accuracy: 639/1000 (64%)
+Test set: Average loss: 5.1116, Accuracy: 171/300 (57%)
+epoch [4]	111 / 100 
+EPOCH [4]: Train set: Average loss: 8.3793, Accuracy: 694/1000 (69%)
+Test set: Average loss: 3.4714, Accuracy: 179/300 (60%)
+epoch [5]	111 / 100 
+EPOCH [5]: Train set: Average loss: 6.7929, Accuracy: 767/1000 (77%)
+Test set: Average loss: 4.1720, Accuracy: 173/300 (58%)
+epoch [6]	111 / 100 
+EPOCH [6]: Train set: Average loss: 6.3346, Accuracy: 785/1000 (78%)
+Test set: Average loss: 4.3460, Accuracy: 187/300 (62%)
+epoch [7]	111 / 100 
+EPOCH [7]: Train set: Average loss: 5.6019, Accuracy: 821/1000 (82%)
+Test set: Average loss: 4.0325, Accuracy: 183/300 (61%)
+epoch [8]	111 / 100 
+EPOCH [8]: Train set: Average loss: 4.4387, Accuracy: 859/1000 (86%)
+Test set: Average loss: 3.8752, Accuracy: 198/300 (66%)
+epoch [9]	111 / 100 
+EPOCH [9]: Train set: Average loss: 4.7320, Accuracy: 856/1000 (86%)
+Test set: Average loss: 4.7386, Accuracy: 170/300 (57%)
+epoch [10]	111 / 100 
+EPOCH [10]: Train set: Average loss: 3.9963, Accuracy: 868/1000 (87%)
+Test set: Average loss: 4.3587, Accuracy: 194/300 (65%)
+epoch [11]	111 / 100 
+EPOCH [11]: Train set: Average loss: 4.1322, Accuracy: 867/1000 (87%)
+Test set: Average loss: 4.1636, Accuracy: 204/300 (68%)
+epoch [12]	111 / 100 
+EPOCH [12]: Train set: Average loss: 5.2235, Accuracy: 853/1000 (85%)
+Test set: Average loss: 4.0312, Accuracy: 199/300 (66%)
+epoch [13]	111 / 100 
+EPOCH [13]: Train set: Average loss: 4.0094, Accuracy: 863/1000 (86%)
+Test set: Average loss: 3.8758, Accuracy: 194/300 (65%)
+epoch [14]	111 / 100 
+EPOCH [14]: Train set: Average loss: 3.2064, Accuracy: 908/1000 (91%)
+Test set: Average loss: 4.5760, Accuracy: 192/300 (64%)
+epoch [15]	111 / 100 
+EPOCH [15]: Train set: Average loss: 3.3549, Accuracy: 903/1000 (90%)
+Test set: Average loss: 3.7560, Accuracy: 196/300 (65%)
+epoch [16]	111 / 100 
+EPOCH [16]: Train set: Average loss: 2.5112, Accuracy: 939/1000 (94%)
+Test set: Average loss: 3.8929, Accuracy: 201/300 (67%)
+epoch [17]	111 / 100 
+EPOCH [17]: Train set: Average loss: 2.0290, Accuracy: 936/1000 (94%)
+Test set: Average loss: 4.6676, Accuracy: 192/300 (64%)
+epoch [18]	111 / 100 
+EPOCH [18]: Train set: Average loss: 1.8883, Accuracy: 947/1000 (95%)
+Test set: Average loss: 5.8326, Accuracy: 193/300 (64%)
+epoch [19]	111 / 100 
+EPOCH [19]: Train set: Average loss: 1.8272, Accuracy: 944/1000 (94%)
+Test set: Average loss: 4.9933, Accuracy: 188/300 (63%)
+epoch [20]	111 / 100 
+EPOCH [20]: Train set: Average loss: 2.0888, Accuracy: 940/1000 (94%)
+Test set: Average loss: 5.6255, Accuracy: 196/300 (65%)
+epoch [21]	111 / 100 
+EPOCH [21]: Train set: Average loss: 1.7083, Accuracy: 947/1000 (95%)
+Test set: Average loss: 4.2173, Accuracy: 203/300 (68%)
+epoch [22]	111 / 100 
+EPOCH [22]: Train set: Average loss: 1.3473, Accuracy: 958/1000 (96%)
+Test set: Average loss: 5.5981, Accuracy: 196/300 (65%)
+epoch [23]	111 / 100 
+EPOCH [23]: Train set: Average loss: 1.5115, Accuracy: 959/1000 (96%)
+Test set: Average loss: 4.9372, Accuracy: 198/300 (66%)
+epoch [24]	111 / 100 
+EPOCH [24]: Train set: Average loss: 2.1274, Accuracy: 938/1000 (94%)
+Test set: Average loss: 5.3551, Accuracy: 188/300 (63%)
+epoch [25]	111 / 100 
+EPOCH [25]: Train set: Average loss: 2.0027, Accuracy: 942/1000 (94%)
+Test set: Average loss: 4.9117, Accuracy: 191/300 (64%)
+epoch [26]	111 / 100 
+EPOCH [26]: Train set: Average loss: 1.7710, Accuracy: 946/1000 (95%)
+Test set: Average loss: 4.5247, Accuracy: 198/300 (66%)
+epoch [27]	111 / 100 
+EPOCH [27]: Train set: Average loss: 1.3446, Accuracy: 966/1000 (97%)
+Test set: Average loss: 5.4797, Accuracy: 184/300 (61%)
+epoch [28]	111 / 100 
+EPOCH [28]: Train set: Average loss: 0.9452, Accuracy: 971/1000 (97%)
+Test set: Average loss: 5.3987, Accuracy: 194/300 (65%)
+epoch [29]	111 / 100 
+EPOCH [29]: Train set: Average loss: 1.1500, Accuracy: 967/1000 (97%)
+Test set: Average loss: 5.8905, Accuracy: 192/300 (64%)
+epoch [30]	111 / 100 
+EPOCH [30]: Train set: Average loss: 1.2341, Accuracy: 970/1000 (97%)
+Test set: Average loss: 5.2387, Accuracy: 191/300 (64%)
+epoch [31]	111 / 100 
+EPOCH [31]: Train set: Average loss: 1.1869, Accuracy: 969/1000 (97%)
+Test set: Average loss: 5.4981, Accuracy: 197/300 (66%)
+epoch [32]	111 / 100 
+EPOCH [32]: Train set: Average loss: 0.8446, Accuracy: 976/1000 (98%)
+Test set: Average loss: 4.9833, Accuracy: 203/300 (68%)
+epoch [33]	111 / 100 
+EPOCH [33]: Train set: Average loss: 1.1651, Accuracy: 971/1000 (97%)
+Test set: Average loss: 5.4192, Accuracy: 191/300 (64%)
+epoch [34]	111 / 100 
+EPOCH [34]: Train set: Average loss: 1.0851, Accuracy: 965/1000 (96%)
+Test set: Average loss: 5.4452, Accuracy: 195/300 (65%)
+epoch [35]	111 / 100 
+EPOCH [35]: Train set: Average loss: 1.1791, Accuracy: 959/1000 (96%)
+Test set: Average loss: 6.0206, Accuracy: 202/300 (67%)
+epoch [36]	111 / 100 
+EPOCH [36]: Train set: Average loss: 0.9722, Accuracy: 971/1000 (97%)
+Test set: Average loss: 5.1371, Accuracy: 198/300 (66%)
+epoch [37]	111 / 100 
+EPOCH [37]: Train set: Average loss: 1.0845, Accuracy: 973/1000 (97%)
+Test set: Average loss: 5.5776, Accuracy: 203/300 (68%)
+epoch [38]	111 / 100 
+EPOCH [38]: Train set: Average loss: 0.7704, Accuracy: 978/1000 (98%)
+Test set: Average loss: 4.9388, Accuracy: 215/300 (72%)
+epoch [39]	111 / 100 
+EPOCH [39]: Train set: Average loss: 0.9107, Accuracy: 983/1000 (98%)
+Test set: Average loss: 6.5318, Accuracy: 194/300 (65%)
+epoch [40]	111 / 100 
+EPOCH [40]: Train set: Average loss: 1.4599, Accuracy: 963/1000 (96%)
+Test set: Average loss: 5.3750, Accuracy: 195/300 (65%)
+epoch [41]	111 / 100 
+EPOCH [41]: Train set: Average loss: 1.0595, Accuracy: 974/1000 (97%)
+Test set: Average loss: 5.2131, Accuracy: 205/300 (68%)
+epoch [42]	111 / 100 
+EPOCH [42]: Train set: Average loss: 0.8886, Accuracy: 973/1000 (97%)
+Test set: Average loss: 6.0443, Accuracy: 196/300 (65%)
+epoch [43]	111 / 100 
+EPOCH [43]: Train set: Average loss: 0.7439, Accuracy: 978/1000 (98%)
+Test set: Average loss: 5.4450, Accuracy: 202/300 (67%)
+epoch [44]	111 / 100 
+EPOCH [44]: Train set: Average loss: 0.6027, Accuracy: 985/1000 (98%)
+Test set: Average loss: 5.5775, Accuracy: 202/300 (67%)
+epoch [45]	111 / 100 
+EPOCH [45]: Train set: Average loss: 1.1576, Accuracy: 969/1000 (97%)
+Test set: Average loss: 6.4328, Accuracy: 201/300 (67%)
+epoch [46]	111 / 100 
+EPOCH [46]: Train set: Average loss: 0.8274, Accuracy: 977/1000 (98%)
+Test set: Average loss: 7.0497, Accuracy: 180/300 (60%)
+epoch [47]	111 / 100 
+EPOCH [47]: Train set: Average loss: 1.3320, Accuracy: 963/1000 (96%)
+Test set: Average loss: 6.0415, Accuracy: 190/300 (63%)
+epoch [48]	111 / 100 
+EPOCH [48]: Train set: Average loss: 1.4164, Accuracy: 962/1000 (96%)
+Test set: Average loss: 9.3308, Accuracy: 177/300 (59%)
+epoch [49]	111 / 100 
+EPOCH [49]: Train set: Average loss: 1.8153, Accuracy: 958/1000 (96%)
+Test set: Average loss: 6.7541, Accuracy: 183/300 (61%)
+epoch [50]	111 / 100 
+EPOCH [50]: Train set: Average loss: 1.5906, Accuracy: 959/1000 (96%)
+Test set: Average loss: 4.5515, Accuracy: 193/300 (64%)
+epoch [51]	111 / 100 
+EPOCH [51]: Train set: Average loss: 0.7640, Accuracy: 981/1000 (98%)
+Test set: Average loss: 5.1649, Accuracy: 202/300 (67%)
+epoch [52]	111 / 100 
+EPOCH [52]: Train set: Average loss: 0.5333, Accuracy: 986/1000 (99%)
+Test set: Average loss: 5.5729, Accuracy: 199/300 (66%)
+epoch [53]	111 / 100 
+EPOCH [53]: Train set: Average loss: 1.0511, Accuracy: 975/1000 (98%)
+Test set: Average loss: 5.5045, Accuracy: 196/300 (65%)
+epoch [54]	111 / 100 
+EPOCH [54]: Train set: Average loss: 1.1362, Accuracy: 971/1000 (97%)
+Test set: Average loss: 5.3532, Accuracy: 201/300 (67%)
+epoch [55]	111 / 100 
+EPOCH [55]: Train set: Average loss: 0.6376, Accuracy: 982/1000 (98%)
+Test set: Average loss: 5.3625, Accuracy: 204/300 (68%)
+epoch [56]	111 / 100 
+EPOCH [56]: Train set: Average loss: 0.7853, Accuracy: 979/1000 (98%)
+Test set: Average loss: 5.0994, Accuracy: 213/300 (71%)
+epoch [57]	111 / 100 
+EPOCH [57]: Train set: Average loss: 1.0185, Accuracy: 975/1000 (98%)
+Test set: Average loss: 6.1609, Accuracy: 209/300 (70%)
+epoch [58]	111 / 100 
+EPOCH [58]: Train set: Average loss: 0.9706, Accuracy: 974/1000 (97%)
+Test set: Average loss: 6.5511, Accuracy: 184/300 (61%)
+epoch [59]	111 / 100 
+EPOCH [59]: Train set: Average loss: 0.8262, Accuracy: 974/1000 (97%)
+Test set: Average loss: 5.6491, Accuracy: 202/300 (67%)
+epoch [60]	111 / 100 
+EPOCH [60]: Train set: Average loss: 0.9038, Accuracy: 975/1000 (98%)
+Test set: Average loss: 5.5963, Accuracy: 197/300 (66%)
+epoch [61]	111 / 100 
+EPOCH [61]: Train set: Average loss: 0.6071, Accuracy: 983/1000 (98%)
+Test set: Average loss: 5.7365, Accuracy: 196/300 (65%)
+epoch [62]	111 / 100 
+EPOCH [62]: Train set: Average loss: 0.8315, Accuracy: 982/1000 (98%)
+Test set: Average loss: 5.6209, Accuracy: 206/300 (69%)
+epoch [63]	111 / 100 
+EPOCH [63]: Train set: Average loss: 0.8428, Accuracy: 980/1000 (98%)
+Test set: Average loss: 6.2745, Accuracy: 193/300 (64%)
+epoch [64]	111 / 100 
+EPOCH [64]: Train set: Average loss: 0.7865, Accuracy: 981/1000 (98%)
+Test set: Average loss: 5.8482, Accuracy: 199/300 (66%)
+epoch [65]	111 / 100 
+EPOCH [65]: Train set: Average loss: 0.5229, Accuracy: 986/1000 (99%)
+Test set: Average loss: 5.7011, Accuracy: 208/300 (69%)
+epoch [66]	111 / 100 
+EPOCH [66]: Train set: Average loss: 0.7025, Accuracy: 980/1000 (98%)
+Test set: Average loss: 5.7060, Accuracy: 202/300 (67%)
+epoch [67]	111 / 100 
+EPOCH [67]: Train set: Average loss: 0.7048, Accuracy: 980/1000 (98%)
+Test set: Average loss: 4.5604, Accuracy: 204/300 (68%)
+epoch [68]	111 / 100 
+EPOCH [68]: Train set: Average loss: 0.4530, Accuracy: 985/1000 (98%)
+Test set: Average loss: 4.3422, Accuracy: 215/300 (72%)
+epoch [69]	111 / 100 
+EPOCH [69]: Train set: Average loss: 0.5994, Accuracy: 984/1000 (98%)
+Test set: Average loss: 5.1327, Accuracy: 208/300 (69%)
+epoch [70]	111 / 100 
+EPOCH [70]: Train set: Average loss: 0.7256, Accuracy: 982/1000 (98%)
+Test set: Average loss: 5.4144, Accuracy: 203/300 (68%)
+epoch [71]	111 / 100 
+EPOCH [71]: Train set: Average loss: 0.6945, Accuracy: 983/1000 (98%)
+Test set: Average loss: 6.5893, Accuracy: 201/300 (67%)
+epoch [72]	111 / 100 
+EPOCH [72]: Train set: Average loss: 0.4600, Accuracy: 986/1000 (99%)
+Test set: Average loss: 5.4458, Accuracy: 202/300 (67%)
+epoch [73]	111 / 100 
+EPOCH [73]: Train set: Average loss: 0.3976, Accuracy: 988/1000 (99%)
+Test set: Average loss: 5.4251, Accuracy: 204/300 (68%)
+epoch [74]	111 / 100 
+EPOCH [74]: Train set: Average loss: 0.7015, Accuracy: 985/1000 (98%)
+Test set: Average loss: 7.3185, Accuracy: 194/300 (65%)
+epoch [75]	111 / 100 
+EPOCH [75]: Train set: Average loss: 0.4585, Accuracy: 987/1000 (99%)
+Test set: Average loss: 4.9020, Accuracy: 202/300 (67%)
+epoch [76]	111 / 100 
+EPOCH [76]: Train set: Average loss: 0.6440, Accuracy: 986/1000 (99%)
+Test set: Average loss: 6.3829, Accuracy: 203/300 (68%)
+epoch [77]	111 / 100 
+EPOCH [77]: Train set: Average loss: 0.5309, Accuracy: 988/1000 (99%)
+Test set: Average loss: 6.0169, Accuracy: 201/300 (67%)
+epoch [78]	111 / 100 
+EPOCH [78]: Train set: Average loss: 0.5720, Accuracy: 988/1000 (99%)
+Test set: Average loss: 5.9807, Accuracy: 206/300 (69%)
+epoch [79]	111 / 100 
+EPOCH [79]: Train set: Average loss: 0.4909, Accuracy: 988/1000 (99%)
+Test set: Average loss: 7.5810, Accuracy: 190/300 (63%)
+epoch [80]	111 / 100 
+EPOCH [80]: Train set: Average loss: 0.8154, Accuracy: 978/1000 (98%)
+Test set: Average loss: 6.6514, Accuracy: 202/300 (67%)
+epoch [81]	111 / 100 
+EPOCH [81]: Train set: Average loss: 0.8790, Accuracy: 977/1000 (98%)
+Test set: Average loss: 5.3064, Accuracy: 200/300 (67%)
+epoch [82]	111 / 100 
+EPOCH [82]: Train set: Average loss: 0.5092, Accuracy: 988/1000 (99%)
+Test set: Average loss: 6.0571, Accuracy: 207/300 (69%)
+epoch [83]	111 / 100 
+EPOCH [83]: Train set: Average loss: 0.8152, Accuracy: 984/1000 (98%)
+Test set: Average loss: 6.1179, Accuracy: 198/300 (66%)
+epoch [84]	111 / 100 
+EPOCH [84]: Train set: Average loss: 0.9921, Accuracy: 972/1000 (97%)
+Test set: Average loss: 5.3931, Accuracy: 202/300 (67%)
+epoch [85]	111 / 100 
+EPOCH [85]: Train set: Average loss: 0.5983, Accuracy: 982/1000 (98%)
+Test set: Average loss: 5.3350, Accuracy: 202/300 (67%)
+epoch [86]	111 / 100 
+EPOCH [86]: Train set: Average loss: 0.3937, Accuracy: 990/1000 (99%)
+Test set: Average loss: 5.9460, Accuracy: 195/300 (65%)
+epoch [87]	111 / 100 
+EPOCH [87]: Train set: Average loss: 0.3135, Accuracy: 991/1000 (99%)
+Test set: Average loss: 7.9219, Accuracy: 192/300 (64%)
+epoch [88]	111 / 100 
+EPOCH [88]: Train set: Average loss: 0.4088, Accuracy: 987/1000 (99%)
+Test set: Average loss: 7.3587, Accuracy: 194/300 (65%)
+epoch [89]	111 / 100 
+EPOCH [89]: Train set: Average loss: 0.5772, Accuracy: 986/1000 (99%)
+Test set: Average loss: 5.4768, Accuracy: 204/300 (68%)
+epoch [90]	111 / 100 
+EPOCH [90]: Train set: Average loss: 0.2976, Accuracy: 990/1000 (99%)
+Test set: Average loss: 5.0075, Accuracy: 211/300 (70%)
+epoch [91]	111 / 100 
+EPOCH [91]: Train set: Average loss: 0.3975, Accuracy: 988/1000 (99%)
+Test set: Average loss: 7.4108, Accuracy: 200/300 (67%)
+epoch [92]	111 / 100 
+EPOCH [92]: Train set: Average loss: 0.5466, Accuracy: 986/1000 (99%)
+Test set: Average loss: 9.4843, Accuracy: 185/300 (62%)
+epoch [93]	111 / 100 
+EPOCH [93]: Train set: Average loss: 0.8026, Accuracy: 983/1000 (98%)
+Test set: Average loss: 8.2599, Accuracy: 188/300 (63%)
+epoch [94]	111 / 100 
+EPOCH [94]: Train set: Average loss: 1.0878, Accuracy: 974/1000 (97%)
+Test set: Average loss: 7.4785, Accuracy: 192/300 (64%)
+epoch [95]	111 / 100 
+EPOCH [95]: Train set: Average loss: 1.0630, Accuracy: 971/1000 (97%)
+Test set: Average loss: 7.9019, Accuracy: 196/300 (65%)
+epoch [96]	111 / 100 
+EPOCH [96]: Train set: Average loss: 1.2129, Accuracy: 981/1000 (98%)
+Test set: Average loss: 6.1915, Accuracy: 196/300 (65%)
+epoch [97]	111 / 100 
+EPOCH [97]: Train set: Average loss: 0.9776, Accuracy: 975/1000 (98%)
+Test set: Average loss: 6.5519, Accuracy: 191/300 (64%)
+epoch [98]	111 / 100 
+EPOCH [98]: Train set: Average loss: 0.5273, Accuracy: 984/1000 (98%)
+Test set: Average loss: 6.2630, Accuracy: 204/300 (68%)
+epoch [99]	111 / 100 
+EPOCH [99]: Train set: Average loss: 0.5951, Accuracy: 986/1000 (99%)
+Test set: Average loss: 6.6761, Accuracy: 207/300 (69%)
+epoch [100]	111 / 100 
+EPOCH [100]: Train set: Average loss: 0.6437, Accuracy: 983/1000 (98%)
+Test set: Average loss: 6.8201, Accuracy: 189/300 (63%)
